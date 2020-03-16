@@ -4,12 +4,25 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Ciao, 
+<span class="evidence">I'm Manfredi and I enjoy using data to generate Insights and predictions to understand better the world we live (as well as help businesses to make data-driven and well-infromed decisions!).</span>
+</p>
+
+pre {
+    padding: 10px;
+    font-size: .8em;
+    white-space: pre;
+}
+
+pre, table {
+    width: 100%;
+}
+
+code, pre, tt {
+    font-family: Monaco, Consolas, Inconsolata, monospace, sans-serif;
+    background: rgba(0,0,0,.05);
+}
+
 
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
