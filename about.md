@@ -1,35 +1,38 @@
 ---
-title: About
+title: About me
 layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Ciao, 
-<span class="evidence">I'm Manfredi and I enjoy using data to generate Insights and predictions to understand better the world we live (as well as help businesses to make data-driven and well-infromed decisions!).</span>
-</p>
+Ciao, I'm Manfredi and I enjoy using data to generate Insights and predictions to understand better the world we live (as well as help businesses to make data-driven and well-infromed decisions!). <span class="evidence">I'm interested in helping startups and small businesses in harnessing the power of Analytics. </span>
 
-pre {
-    padding: 10px;
-    font-size: .8em;
-    white-space: pre;
-}
+<div class="breaker"></div>
 
-pre, table {
-    width: 100%;
-}
+I was born and raised in Palermo, Sicily (IT)!
 
-code, pre, tt {
-    font-family: Monaco, Consolas, Inconsolata, monospace, sans-serif;
-    background: rgba(0,0,0,.05);
-}
+<img src="/assets/images/palermo_about_header.jpg" alt="Palermo"
+	title="View of Palermo" style="width:1200px;height:600;" />
+
+After completing a join Ph.D. in Chemistry between University of Queensland (AU) and Maynooth University (IE), I decided to pause my academic career and joined a FinTech startup. That's when I discovered my love for programming and how it can be applied to a number of fields. 
+
+Since then, I shifted my career to incorporate Analytics and programming. I'm now a passionate programmer that uses Python and SQL to extract information from Big Data. However, my curiosity is pushing me to explore other languages and I'm in *constant learning* mode.
+
+When I'm not learning or working, I enjoy doing sports. I used to rock climb a lot and I used to do a lot of CrossFit. I still do from time to time, but I've reduced the pace lately to focus more on running Padel Tennis. 
+
+<div class="breaker"></div>
+
+If you want to get in touch, I'm always open to new opportunities. Right now, I have ~10hrs/week to dedicate to side-projects. If you want to understand what tyupe of projects I can help you with, feel free to jump to my Résumé page or head to the "Projects" section. I'll keep these sections constantly updated! 
+
+<div class="breaker"></div>
 
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+
+
+
+
+
 
 <h2>Skills</h2>
 
