@@ -13,7 +13,7 @@ I was born and raised in Palermo, Sicily (IT)!
 <img src="/assets/images/palermo_about_header.jpg" alt="Palermo"
 	title="View of Palermo" style="width:1200px;height:600;" />
 
-After completing a join Ph.D. in Chemistry between University of Queensland (AU) and Maynooth University (IE), I decided to pause my academic career and joined a FinTech startup. That's when I discovered my love for programming and how it can be applied to a number of fields. 
+After completing a joint Ph.D. in Chemistry between University of Queensland (AU) and Maynooth University (IE), I decided to pause my academic career and joined a FinTech startup. That's when I discovered my love for programming and how it can be applied to a number of fields. 
 
 Since then, I shifted my career to incorporate Analytics and programming. I'm now a passionate programmer that uses Python and SQL to extract information from Big Data. However, my curiosity is pushing me to explore other languages and I'm in *constant learning* mode.
 
