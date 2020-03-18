@@ -3,7 +3,7 @@ name: Manfredi Miraula
 bio: Chemist (PhD) now enjoying the beauty of programming.
 
 # twitter summary info
-description: My journey to a more Pythonic life
+description: Manfredi Miraula is a freelance Data Scientist, expert in using Python for Analytics, working professionally since 2016.
 
 # if it's an external image, update below for true
 # better with square images
@@ -16,8 +16,9 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://manfredimiraula.github.io/
 # your url: http://USERNAME.github.io
+url: https://manfredimiraula.github.io/
+
 
 permalink: /:title/
 
@@ -31,35 +32,35 @@ analytics-google: 'UA-160610044-1'
 # if you don't want comments in your posts, leave categories empty
 disqus:
   shortname: manfredi-1 # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+  categories: [blog, project, data science, ] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+# facebook: myfacebook
+# twitter: mytwitter
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
+linkedin: manfredimiraula
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+github: manfredimiraula
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+# medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+# email: myemail@gmail.com
 
 authors:
     manfredi:
         name: Manfredi Miraula
-        bio: A Man who travels the world eating noodles
+        bio: A Chemist turned to Matrix
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
+        # twitter: johndoe
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
