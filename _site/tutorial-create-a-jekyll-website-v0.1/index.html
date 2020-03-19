@@ -675,11 +675,11 @@ figure.highlight {
 
 code,
 tt {
-  padding: 1px 0;
+  padding: 5px 0;
   font-family: "Roboto", Liberation Mono, Menlo, Courier, monospace;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 20px;
-  background: #fff;
+  background: #eee;
   border-radius: 2px;
   border-radius: 2px; }
 
@@ -692,7 +692,7 @@ pre {
   font-size: 1.2rem;
   line-height: 2rem;
   overflow: auto;
-  background: #fff;
+  background: #eee;
   border: 1px solid #ededed;
   border-radius: 2px; }
 
@@ -1471,7 +1471,7 @@ pre {
     
 
     
-        3 mins
+        6 mins
     
 </span>
 
@@ -1489,205 +1489,152 @@ pre {
     </div>
 
 
-<h2 id="what-is-jekyll">What is Jekyll?</h2>
+<p>In this tutorial I will share my experience in building a static website based on Jekyll. I’m imagined this tutorial as a series of posts, to help me getting practice with content creation and Markdown.</p>
 
-<p class="text-center"> Why to use Jekyll and GitPages </p>
+<p>In the first post I will cover the following content:</p>
 
-<p class="text-center"> Why this tutorial?</p>
+<ol>
+  <li>What is Jekyll and what are the advantages of using it</li>
+  <li>Create the folder structure and requirements</li>
+  <li>Preliminary configuration of the config.yml file</li>
+  <li>Summary and next post</li>
+</ol>
 
-<h3 id="ok-lets-start-what-do-we-need">Ok, let’s start. What do we need?</h3>
+<p>Mainly, this tutorial represent a note to my future self, in the case that I will have to generate another website for myself (or a friend/client) in the future. As such, I hope this will represent a useful how-to guide for anyone interested in the reading.</p>
 
-<p class="text-center"> Requirements and structure </p>
+<h4 id="disclaimer-and-requirements">Disclaimer and requirements</h4>
+<p>The guide assumes you are using a MacOS environment, as Ruby (Jekyll’s language) is pre-installed in every Mac. If you are using a different OS, you will need to find specific guides for your systems as the command we will use might change.</p>
 
-<h3 id="start-playing-around-with-the-files-initial-configuration">Start playing around with the files. Initial configuration</h3>
+<h2 id="what-is-jekyll-and-what-are-the-advantages-of-using-it">What is Jekyll and what are the advantages of using it</h2>
 
-<p class="text-center"> First steps</p>
+<p><a href="https://jekyllrb.com/">Jekyll</a> is  a useful way to generate static websites that can then be served by webservers such as GitHub Pages.</p>
 
-<!-- And that's how to do it.
+<p>Jekyll allow to generate beautiful websites without any prior coding knowledge. However, if someone is so inclined it is possible to extend its functionality with front-end frameworks and additional plugins to track, for instance, web views.</p>
 
+<h2 id="requirements-and--folder-structure">Requirements and  folder structure</h2>
+<p>Ok, here we go!</p>
 
-<figure class="highlight"><pre><code class="language-html" data-lang="html">This note **demonstrates** some of what [Markdown][some/link] is *capable of doing*.</code></pre></figure>
+<p>We need to first open our terminal and position ourselves in the directory we want to use to create our base folder.</p>
 
+<p>You can use the following command to to move around folders, create a folder and generate a file:</p>
 
----
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">cd</span> <span class="o">[</span>directory/folder]
+<span class="nv">$ </span><span class="nb">mkdir</span> <span class="o">[</span>folder_name]
+<span class="nv">$ </span><span class="nb">touch</span> <span class="o">[</span>file_name.ext]
+</code></pre></div></div>
 
-## Headings
+<p>We will need <a href="https://guides.rubygems.org/what-is-a-gem/">Ruby gems</a> and <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Git</a>. To test wether we have them installed we can run the following commands from Terminal:</p>
 
-There are six levels of headings. They correspond with the six levels of HTML headings. You've probably noticed them already in the page. Each level down uses one more hash character. But we are using just 4 of them.
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git
+</code></pre></div></div>
+<p>and</p>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>gem
+</code></pre></div></div>
 
-# Headings can be small
+<p>If everything works as expected, you should see the following responses from Terminal</p>
 
-## Headings can be small
+<p><img src="/assets/images/2020-03-18-tutorial/git-response.png" alt="Git installed response" /><em>This is part of the response when git is installed</em></p>
 
-### Headings can be small
+<p><img src="/assets/images/2020-03-18-tutorial/gem-response.png" alt="Gem installed response" /><em>This is part of the response when git is installed</em></p>
 
-#### Headings can be small
+<p>Once the requirements are in place, we can start creating our folder. We want to run the following commands:</p>
 
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>gem <span class="nb">install </span>jekyll bundler
+<span class="nv">$ </span>bundle <span class="nb">install</span> 
+<span class="nv">$ </span>jekyll new <span class="s1">'website_name'</span>
+</code></pre></div></div>
 
-<figure class="highlight"><pre><code class="language-raw" data-lang="raw"># Heading
-## Heading
-### Heading
-#### Heading</code></pre></figure>
+<p>For the last command, you want to change the name to the folder that will contain the files to build the website. I recommend having the following strucure:</p>
 
+<ol>
+  <li>User/
+    <ol>
+      <li>website_name
+        <ol>
+          <li>website_name (this will be our working_folder)</li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+</ol>
 
----
+<p>Once the command has finished to run, we can see how the website looks like by running the following command:</p>
 
-## Lists
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>bundle <span class="nb">exec </span>jekyll serve
+</code></pre></div></div>
 
-### Ordered list
+<p>This will create a local environment in your browser that allow us to see the changes we make to our website! Open a page in Chrome (or your favourite browser) at the address http://localhost:4000/ to see the starting version of the website.</p>
 
-1. Item 1
-2. A second item
-3. Number 3
+<p>I know, it looks pretty bare bone and hugly but don’t worry! Will make it much more appealing and pretty!</p>
 
+<h2 id="lets-start-playing-around-with-our-configyml">Let’s start playing around with our config.yml!</h2>
 
-<figure class="highlight"><pre><code class="language-raw" data-lang="raw">1. Item 1
-2. A second item
-3. Number 3</code></pre></figure>
+<p>For context, the config.yml file that you find in the newly created folder is a very important file and it handles the configurations of our websites. For example, the file specifies which plugins we want to have in order to add additional functionalities to our website.</p>
 
+<p>The first tweaks we are going to make will allow us to start from scratch and create the layout the way we want it. I would recommend to use a text editor from now on. My preferred editor is <a href="https://code.visualstudio.com/">Visual Studio Code</a>, but you can also use <a href="https://atom.io/">Atom</a> or any editor you like. Ok, let’s dive into our config file.</p>
 
-### Unordered list
+<p>Open the file <code class="highlighter-rouge">config.yml</code> and modify the following lines:</p>
 
-* An item
-* Another item
-* Yet another item
-* And there's more...
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ss">title: </span><span class="s1">'name of your website'</span>
+<span class="ss">email: </span><span class="s1">'add your personal/work email'</span>
+<span class="ss">description: </span><span class="s1">'Add the description for your website'</span>
+<span class="ss">baseurl: </span><span class="s1">'/your_website_folder'</span>
+<span class="ss">url: </span><span class="s1">'add the future url of your website'</span>
+</code></pre></div></div>
+<p>For some context, the url can be populated with a temporary place holder, if you don’t have your url hosted yet, as we won’t need the website live to design it!</p>
 
+<p>Now, to remove the current theme, delete the line</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>theme: minima
+</code></pre></div></div>
+<p>This is the default minimal them that comes with jekyll installation. We will use our own theme.</p>
 
-<figure class="highlight"><pre><code class="language-raw" data-lang="raw">* An item
-* Another item
-* Yet another item
-* And there's more...</code></pre></figure>
+<p>In the <code class="highlighter-rouge">gems</code> section add jekyll plugin <a href="https://github.com/postcss/autoprefixer#other-build-tools">autoprefixer</a>:</p>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">-</span> <span class="n">jekyll</span><span class="o">-</span><span class="n">autoprefixer</span>
+</code></pre></div></div>
 
+<p>We are going to use <a href="https://sass-lang.com/">Sass</a> to add CSS functionalities to our website. Let’s add a section at the end of the <code class="highlighter-rouge">config.yml</code></p>
 
----
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ss">sass:
+  sass_dir: </span><span class="n">_sass</span>
+</code></pre></div></div>
 
-## Paragraph modifiers
+<p>At this point, is also useful to add some prettification for future use. Have you ever notice that professional website show structured url like <code class="highlighter-rouge">https://my_website/about</code> ? We are going to prettify our website as well by hiding the file extension on the website page.</p>
 
-### Quote
+<p>In the section “Build settings” add the following line:</p>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ss">permalink: </span><span class="n">pretty</span>
+</code></pre></div></div>
 
-> Here is a quote. What this is should be self explanatory. Quotes are automatically indented when they are used.
+<h2 id="modify-the-gemfile-to-reflect-our-configyml-modifications">Modify the Gemfile to reflect our config.yml modifications</h2>
 
+<p>Now that we  modified the <code class="highlighter-rouge">config.yml</code> file extensively, we want to make sure that these modifications can work properly. We need to modify our <code class="highlighter-rouge">Gemfile</code> to match the modifications we just made.</p>
 
-<figure class="highlight"><pre><code class="language-raw" data-lang="raw">&gt; Here is a quote. What this is should be self explanatory.</code></pre></figure>
+<p>Remove the line</p>
 
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">gem</span> <span class="s2">"minima"</span><span class="p">,</span> <span class="s2">"~&gt; #.#"</span>
+</code></pre></div></div>
 
----
+<p>Add the line</p>
 
-## URLs
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">gem</span> <span class="s2">"jekyll-autoprefixer"</span>
+</code></pre></div></div>
 
-URLs can be made in a handful of ways:
+<p>Save the <code class="highlighter-rouge">Gemfile</code>.</p>
 
-* A named link to [Mark It Down][3].
-* Another named link to [Mark It Down](http://markitdown.net/)
-* Sometimes you just want a URL like <http://markitdown.net/>.
+<h2 id="last-thing-before-having-our-balnk-canvas">Last thing before having our balnk canvas…</h2>
 
+<p>If we now try to reload the website in our local host you may notice that nothing has changed. This is because every time we change the <code class="highlighter-rouge">config.yml</code>, we need to restart the local service to see the changes rendered.</p>
 
-<figure class="highlight"><pre><code class="language-raw" data-lang="raw">* A named link to [MarkItDown][3].
-* Another named link to [MarkItDown](http://markitdown.net/)
-* Sometimes you just want a URL like &lt;http://markitdown.net/&gt;.</code></pre></figure>
+<p>Before doing so, we want to delete the file in the <code class="highlighter-rouge">_posts</code> folder <code class="highlighter-rouge">today's date-welcome-to-jekyll.markdown</code>. If we don’t do that and try to restart the local host, we will get an error caused by the fact that we deleted the theme and thus, we won’t be able to render the page.</p>
 
+<p>Let’s change the <code class="highlighter-rouge">index.md</code> to <code class="highlighter-rouge">index.html</code> and add the following lines to the file:</p>
 
----
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;h1&gt;</span> My Website Title <span class="nt">&lt;h1/&gt;</span>
+</code></pre></div></div>
 
-## Horizontal rule
+<p>Let’s restart the local server and Congrats! You already have your static Home that is ready to be designed!</p>
 
-A horizontal rule is a line that goes across the middle of the page.
-It's sometimes handy for breaking things up.
+<p><img src="/assets/images/2020-03-18-tutorial/home.png" alt="Our Home MVP!" /><em>Congrats! This is your first website Home page!</em></p>
 
-
-<figure class="highlight"><pre><code class="language-raw" data-lang="raw">---</code></pre></figure>
-
-
----
-
-## Images
-
-Markdown can also contain images. I'll need to add something here sometime.
-
-
-<figure class="highlight"><pre><code class="language-raw" data-lang="raw">![Markdowm Image][/image/url]</code></pre></figure>
-
-
-![Markdowm Image][6]
-
-*Figure Caption*?
-
-
-<figure class="highlight"><pre><code class="language-raw" data-lang="raw">![Markdowm Image][/image/url]
-&lt;figcaption class="caption"&gt;Photo by John Doe&lt;/figcaption&gt;</code></pre></figure>
-
-
-![Markdowm Image][6]
-<figcaption class="caption">Photo by John Doe</figcaption>
-
-*Bigger Images*?
-
-
-<figure class="highlight"><pre><code class="language-raw" data-lang="raw">![Markdowm Image][/image/url]{: class="bigger-image" }</code></pre></figure>
-
-
-![Markdowm Image][6]{: class="bigger-image" }
-
----
-
-## Code
-
-A HTML Example:
-
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
-<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
-<span class="nt">&lt;head&gt;</span>
-    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"UTF-8"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;title&gt;</span>Document<span class="nt">&lt;/title&gt;</span>
-<span class="nt">&lt;/head&gt;</span>
-<span class="nt">&lt;body&gt;</span>
-    <span class="nt">&lt;h1&gt;</span>Just a test<span class="nt">&lt;/h1&gt;</span>
-<span class="nt">&lt;/body&gt;</span>
-<span class="nt">&lt;/html&gt;</span></code></pre></figure>
-
-
-A CSS Example:
-
-
-<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">pre</span> <span class="p">{</span>
-    <span class="nl">padding</span><span class="p">:</span> <span class="m">10px</span><span class="p">;</span>
-    <span class="nl">font-size</span><span class="p">:</span> <span class="m">.8em</span><span class="p">;</span>
-    <span class="nl">white-space</span><span class="p">:</span> <span class="n">pre</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="nt">pre</span><span class="o">,</span> <span class="nt">table</span> <span class="p">{</span>
-    <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="nt">code</span><span class="o">,</span> <span class="nt">pre</span><span class="o">,</span> <span class="nt">tt</span> <span class="p">{</span>
-    <span class="nl">font-family</span><span class="p">:</span> <span class="n">Monaco</span><span class="p">,</span> <span class="n">Consolas</span><span class="p">,</span> <span class="n">Inconsolata</span><span class="p">,</span> <span class="nb">monospace</span><span class="p">,</span> <span class="nb">sans-serif</span><span class="p">;</span>
-    <span class="nl">background</span><span class="p">:</span> <span class="n">rgba</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">.05</span><span class="p">);</span>
-<span class="p">}</span></code></pre></figure>
-
-
-A JS Example:
-
-
-<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="c1">// Sticky Header</span>
-<span class="nx">$</span><span class="p">(</span><span class="nb">window</span><span class="p">).</span><span class="nx">scroll</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
-
-    <span class="k">if</span> <span class="p">(</span><span class="nx">$</span><span class="p">(</span><span class="nb">window</span><span class="p">).</span><span class="nx">scrollTop</span><span class="p">()</span> <span class="o">&gt;</span> <span class="mi">900</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="nx">$</span><span class="p">(</span><span class="dl">"</span><span class="s2">body</span><span class="dl">"</span><span class="p">).</span><span class="nx">hasClass</span><span class="p">(</span><span class="dl">'</span><span class="s1">show-menu</span><span class="dl">'</span><span class="p">))</span> <span class="p">{</span>
-        <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">#hamburguer__open</span><span class="dl">'</span><span class="p">).</span><span class="nx">fadeOut</span><span class="p">(</span><span class="dl">'</span><span class="s1">fast</span><span class="dl">'</span><span class="p">);</span>
-    <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">$</span><span class="p">(</span><span class="dl">"</span><span class="s2">body</span><span class="dl">"</span><span class="p">).</span><span class="nx">hasClass</span><span class="p">(</span><span class="dl">'</span><span class="s1">show-menu</span><span class="dl">'</span><span class="p">))</span> <span class="p">{</span>
-        <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">#hamburguer__open</span><span class="dl">'</span><span class="p">).</span><span class="nx">fadeIn</span><span class="p">(</span><span class="dl">'</span><span class="s1">fast</span><span class="dl">'</span><span class="p">);</span>
-    <span class="p">}</span>
-
-<span class="p">});</span></code></pre></figure>
-
-
-[1]: http://daringfireball.net/projects/markdown/
-[2]: http://www.fileformat.info/info/unicode/char/2163/index.htm
-[3]: http://www.markitdown.net/
-[4]: http://daringfireball.net/projects/markdown/basics
-[5]: http://daringfireball.net/projects/markdown/syntax
-[6]: http://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg -->
 
 
 
