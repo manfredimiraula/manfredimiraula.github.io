@@ -96,7 +96,7 @@ The first tweaks we are going to make will allow us to start from scratch and cr
 
 Open the file ```config.yml``` and modify the following lines:
 
-``` ruby
+``` yml
 title: 'name of your website'
 email: 'add your personal/work email'
 description: 'Add the description for your website'
@@ -106,19 +106,19 @@ url: 'add the future url of your website'
 For some context, the url can be populated with a temporary place holder, if you don't have your url hosted yet, as we won't need the website live to design it!
 
 Now, to remove the current theme, delete the line 
-```
+``` yml
 theme: minima
 ``` 
 This is the default minimal them that comes with jekyll installation. We will use our own theme. 
 
 In the ```gems``` section add jekyll plugin [autoprefixer][apfixer]: 
-``` ruby
+``` yml
 - jekyll-autoprefixer
 ```
 
 We are going to use [Sass][sass] to add CSS functionalities to our website. Let's add a section at the end of the ```config.yml``` 
 
-``` ruby
+``` yml
 sass:
   sass_dir: _sass
 ```
@@ -126,8 +126,19 @@ sass:
 At this point, is also useful to add some prettification for future use. Have you ever notice that professional website show structured url like ```https://my_website/about``` ? We are going to prettify our website as well by hiding the file extension on the website page. 
 
 In the section "Build settings" add the following line: 
-``` ruby
+``` yml
 permalink: pretty
+```
+
+Before moving to the next step, we want to start creating some custom variables, that will be useful while building the website. We can add the following variables before the "Build settings" section:
+
+``` yml
+# these variable can be accessed using the format {{ site.myvariable }} 
+twitter_path: https://twitter.com/my_twitter
+facebook_path: https://facebook.com/my_facebook
+instagram_path: https://instagram.com/my_instagram
+youtube_path: https://youtube.com/channel/my_youtube
+github_path: https://github.com/my_github
 ```
 
 ## Modify the Gemfile to reflect our config.yml modifications
@@ -136,13 +147,13 @@ Now that we  modified the ```config.yml``` file extensively, we want to make sur
 
 Remove the line
 
-``` ruby
+``` yml
 gem "minima", "~> #.#"
 ```
 
 Add the line 
 
-``` ruby
+``` yml
 gem "jekyll-autoprefixer"
 ```
 
@@ -163,6 +174,7 @@ Let's change the ```index.md``` to ```index.html``` and add the following lines 
 Let's restart the local server and Congrats! You already have your static Home that is ready to be designed!
 
 ![Our Home MVP!](/assets/images/2020-03-18-tutorial/home.png)*Congrats! This is your first website Home page!*
+
 
 
 
