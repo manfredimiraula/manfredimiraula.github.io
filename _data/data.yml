@@ -1,0 +1,162 @@
+# #
+# # Be aware that even a small syntax error here can lead to failures in output.
+# #
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+    sidebar-nav: True 
+
+    # Profile information
+    name: Manfredi Miraula
+    tagline: Data Scientist
+    avatar: face.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    sidebar-nav: Home
+
+    # Sidebar links
+    email: manfredi.miraula@gmail.com
+    phone: IE
+    website: manfredimiraula.org #do not add http://
+    linkedin: manfredimiraula
+    github: manfredimiraula
+    gitlab:
+    bitbucket:
+    twitter: ' '
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: Italian
+        level: Native
+
+      - idiom: English
+        level: C2
+
+    interests:
+      - item: Climbing
+        link:
+
+      - item: Financial markets and trading
+        link:
+
+      - item: Entrepreneurship and investment
+        link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+     I started my career as a Scientist. I completed my Ph.D. in Chemistry between Australia and Ireland. Academia is a tough job market and I decided to switch career. 
+     That's how I ended up in tech and eventually moved into Analytical roles and programming. 
+     Nowadays, I spend my free time learning about programming and trading both equities and option contracts. 
+
+education:
+    - degree: Ph.D. Chemistry
+      university: Maynooth University (IE) & University of Queensland (AU)
+      time: 2013-2017
+      details: |
+        I was awarded an International Scholarship for a joint Ph.D. programme between Maynooth University and Queensland University to study the 
+        effect of bacterial resistance against beta-lactam antibiotics. The goal of the programme was to design an inhibitor to be used to decrease/stop the efficacy of the bacterial antibiotic resistance system.
+        I used biophisical and biochemical techniques to study the structures of two novel bacterial proteins I identified to inhibit the mechanism of antibiotic resistance. 
+        - I delivered numerous scientific presentations internationally  and produced 9 peer-reviewed articles in ~3 years
+        - I tutored and teached multiple courses
+        - I was visiting Ph.D. researcher for two consecutive years at Middelbury College (VT) and Oxford university (OH)
+        
+    - degree: M.Sc. in Industrial Biotechnology 
+      university: University of Bologna
+      time: 2010 - 2012
+      details: |
+        I graduated magna cum laude and produced one peer-reviewed. 
+          - Major: Chemistry, Physics, Biology
+          - One year of research conducted as part of my thesis
+
+    - degree: B.Sc. in Biotechnology for the Food Industry
+      university: University of Palermo
+      time: 2007 - 2010
+      details: |
+        I graduated magna cum laude.
+          - Major: Chemistry, Physics, Biology
+          
+experiences:
+    - role: Business Analyst
+      time: 2016 - Present
+      company: Stripe Inc. (Dublin)
+      details: |
+        Responsible to perform Data Analysis and Reporting for the Risk C-level and senior Managers. 
+          - Technically savvy, I used SQL and Python daily
+          - Active in hiring loops
+          - Trained Project Managers and Analyst in SQL 
+
+projects:
+    title: Projects
+    intro: >
+      These are some of my personal projects I developped using Python. 
+    assignments:
+      - title: Visualizing Real Estate trends in Ireland
+        link: "#hook"
+        tagline: "The use of Matplotlib, PyPlot and Bokeh to visualize Real Estate trends in Ireland."
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python \
+        level: 70%
+
+      - name: SQL
+        level: 90%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+
+publications:
+    title: Publications
+    intro: |
+      Scientific pubblications.
+    papers:
+      - title: "Beta-Lactam antibiotic-degrading enzymes from non-pathogenic marine organisms: a potential threat to human health."
+        link: "https://www.ncbi.nlm.nih.gov/pubmed/25773168"
+        authors: Miraula M., Whitaker JJ, Schenk G, Mitić N.
+        journal: Journal of Biological Inorganic Chemistry
+
+      - title: "Inteins-A Focus on the Biotechnological Applications of Splicing-Promoting Proteins."
+        link: "https://www.scirp.org/journal/paperinformation.aspx?paperid=55086"
+        authors: Miraula M., Schenk G, Mitić N.
+        journal: "American Journal of Molecular Biology"
+
+      - title: "Intrinsic disorder and metal binding in UreG proteins from Archae hyperthermophiles: GTPase enzymes involved in the activation of Ni(II) dependent urease."
+        link: "https://www.ncbi.nlm.nih.gov/pubmed/25846143"
+        authors: Miraula M., Ciurli S, Zambelli B.
+        journal: "Journal of Biological Inorganic Chemistry"
+
+      - title: "Intrinsic disorder and metal binding in UreG proteins from Archae hyperthermophiles: GTPase enzymes involved in the activation of Ni(II) dependent urease."
+        link: "https://www.ncbi.nlm.nih.gov/pubmed/25846143"
+        authors: Miraula M., Ciurli S, Zambelli B.
+        journal: "Journal of Biological Inorganic Chemistry"
+
+      - title: "Catalytic mechanisms of metallohydrolases containing two metal ions."
+        link: "https://www.ncbi.nlm.nih.gov/pubmed/25458355"
+        authors: Mitić N, Miraula M, Selleck C, Hadler KS, Uribe E, Pedroso MM, Schenk G.
+        journal: "Adv. Protein Chem Struct Biol"
+
+
+      - title: "Unusual metallo-β-lactamases may constitute a new subgroup in this family of enzymes."
+        link: "https://m.scirp.org/papers/41626"
+        authors: Chun-Feng D. Hou, Emer K. Phelan, Manfredi Miraula, David L. Ollis, Gerhard Schenk, Nataša Mitić*
+        journal: "American Journal of Molecular biology"
+        
+
+      - title: "Identification and characterization of an unusual metallo-beta-lactamase from Serratia proteamaculans."
+        link: "https://www.ncbi.nlm.nih.gov/pubmed/23982345"
+        authors: Vella P, Miraula M, Phelan E, Leung EW, Ely F, Ollis DL, McGeary RP, Schenk G, Mitić N.
+        journal: "Journal of Biological Inorganic Chemistry"
+
+
+      - title: "Identification and preliminary characterization of novel B3-type metallo-β-lactamases."
+        link: "https://www.researchgate.net/publication/273746274_Identification_and_preliminary_characterization_of_novel_B3-type_metallo-b-lactamases"
+        authors: Miraula M, Conor S Brunton, Schenk G, Mitić N.
+        journal: "American Journal of Molecular Biology"
+
+footer: >
+    CV <i class="fas fa-heart"></i> by <a href="http://manfredimiraula.org" target="_blank" rel="nofollow">Manfredi Miraula</a>

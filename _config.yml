@@ -13,8 +13,9 @@ picture: assets/images/face.jpeg
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
-resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-external: local
+resume-url: /resume/
+theme_skin: ceramic 
 
 # your url: http://USERNAME.github.io
 url: https://manfredimiraula.github.io/

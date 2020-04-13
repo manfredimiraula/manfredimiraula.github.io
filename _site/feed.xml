@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-19T12:06:40+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Manfredi Miraula</title><subtitle>Manfredi Miraula is a freelance Data Scientist, expert in using Python for Analytics, working professionally since 2016.</subtitle><entry><title type="html">Creating my website at the time of Coronavirus</title><link href="http://localhost:4000/a-website-at-the-time-of-coronavirus/" rel="alternate" type="text/html" title="Creating my website at the time of Coronavirus" /><published>2020-03-16T09:45:00+00:00</published><updated>2020-03-16T09:45:00+00:00</updated><id>http://localhost:4000/a-website-at-the-time-of-coronavirus</id><content type="html" xml:base="http://localhost:4000/a-website-at-the-time-of-coronavirus/">&lt;h2 id=&quot;make-good-use-of-a-pandemic-world-lock-down&quot;&gt;Make good use of a pandemic world lock down.&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-13T12:46:40+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Manfredi Miraula</title><subtitle>Manfredi Miraula is a freelance Data Scientist, expert in using Python for Analytics, working professionally since 2016.</subtitle><entry><title type="html">Creating my website at the time of Coronavirus</title><link href="http://localhost:4000/a-website-at-the-time-of-coronavirus/" rel="alternate" type="text/html" title="Creating my website at the time of Coronavirus" /><published>2020-03-16T09:45:00+00:00</published><updated>2020-03-16T09:45:00+00:00</updated><id>http://localhost:4000/a-website-at-the-time-of-coronavirus</id><content type="html" xml:base="http://localhost:4000/a-website-at-the-time-of-coronavirus/">&lt;h2 id=&quot;make-good-use-of-a-pandemic-world-lock-down&quot;&gt;Make good use of a pandemic world lock down.&lt;/h2&gt;
 
 &lt;center&gt;This is my first post.&lt;/center&gt;
 
@@ -196,34 +196,30 @@ A JS Example:
 [3]: http://www.markitdown.net/
 [4]: http://daringfireball.net/projects/markdown/basics
 [5]: http://daringfireball.net/projects/markdown/syntax
-[6]: http://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg --&gt;</content><author><name>manfredimiraula</name></author><category term="blog" /><category term="post" /><category term="personal" /><summary type="html">Make good use of a pandemic world lock down.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/hazard-zone.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/hazard-zone.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Tutorial: Create a Jekyll-based static website from scratch</title><link href="http://localhost:4000/tutorial-create-a-jekyll-website-v0.1/" rel="alternate" type="text/html" title="Tutorial: Create a Jekyll-based static website from scratch" /><published>2020-03-16T09:45:00+00:00</published><updated>2020-03-16T09:45:00+00:00</updated><id>http://localhost:4000/tutorial-create-a-jekyll-website-v0.1</id><content type="html" xml:base="http://localhost:4000/tutorial-create-a-jekyll-website-v0.1/">&lt;p&gt;In this tutorial I will share my experience in building a static website based on Jekyll. I’m imagined this tutorial as a series of posts, to help me getting practice with content creation and Markdown.&lt;/p&gt;
+[6]: http://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg --&gt;</content><author><name>manfredimiraula</name></author><category term="blog" /><category term="post" /><category term="personal" /><summary type="html">Make good use of a pandemic world lock down.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/hazard-zone.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/hazard-zone.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Tutorial: Create a Jekyll-based static website from scratch Part 0.1</title><link href="http://localhost:4000/tutorial-create-a-jekyll-website-v0.1/" rel="alternate" type="text/html" title="Tutorial: Create a Jekyll-based static website from scratch Part 0.1" /><published>2020-03-16T09:45:00+00:00</published><updated>2020-03-16T09:45:00+00:00</updated><id>http://localhost:4000/tutorial-create-a-jekyll-website-v0.1</id><content type="html" xml:base="http://localhost:4000/tutorial-create-a-jekyll-website-v0.1/">&lt;p&gt;I’ve imagined this tutorial as a series of posts, to share my experience in building a static website based on Jekyll. I hope this will be helpful to help you getting started in building your own website based on Jekyll.&lt;/p&gt;
 
 &lt;p&gt;In the first post I will cover the following content:&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;What is Jekyll and what are the advantages of using it&lt;/li&gt;
-  &lt;li&gt;Create the folder structure and requirements&lt;/li&gt;
+  &lt;li&gt;Brief Summary of what is Jekyll and what are the advantages of using it&lt;/li&gt;
+  &lt;li&gt;Requirements and folder structure&lt;/li&gt;
   &lt;li&gt;Preliminary configuration of the config.yml file&lt;/li&gt;
   &lt;li&gt;Summary and next post&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Mainly, this tutorial represent a note to my future self, in the case that I will have to generate another website for myself (or a friend/client) in the future. As such, I hope this will represent a useful how-to guide for anyone interested in the reading.&lt;/p&gt;
-
 &lt;h4 id=&quot;disclaimer-and-requirements&quot;&gt;Disclaimer and requirements&lt;/h4&gt;
-&lt;p&gt;The guide assumes you are using a MacOS environment, as Ruby (Jekyll’s language) is pre-installed in every Mac. If you are using a different OS, you will need to find specific guides for your systems as the command we will use might change.&lt;/p&gt;
+&lt;p&gt;This guide is based on MacOS.&lt;/p&gt;
 
 &lt;h2 id=&quot;what-is-jekyll-and-what-are-the-advantages-of-using-it&quot;&gt;What is Jekyll and what are the advantages of using it&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; is  a useful way to generate static websites that can then be served by webservers such as GitHub Pages.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; is  a useful way to generate static websites that can then be served by webservers such as &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Jekyll allow to generate beautiful websites without any prior coding knowledge. However, if someone is so inclined it is possible to extend its functionality with front-end frameworks and additional plugins to track, for instance, web views.&lt;/p&gt;
 
 &lt;h2 id=&quot;requirements-and--folder-structure&quot;&gt;Requirements and  folder structure&lt;/h2&gt;
 &lt;p&gt;Ok, here we go!&lt;/p&gt;
 
-&lt;p&gt;We need to first open our terminal and position ourselves in the directory we want to use to create our base folder.&lt;/p&gt;
-
-&lt;p&gt;You can use the following command to to move around folders, create a folder and generate a file:&lt;/p&gt;
+&lt;p&gt;Use the following commands to to move around folders, create a folder and generate a file:&lt;/p&gt;
 
 &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;directory/folder]
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;mkdir&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;folder_name]
@@ -238,13 +234,13 @@ A JS Example:
 &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;gem
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;If everything works as expected, you should see the following responses from Terminal&lt;/p&gt;
+&lt;p&gt;If everything works as expected, you should see the following responses from Terminal:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/2020-03-18-tutorial/git-response.png&quot; alt=&quot;Git installed response&quot; /&gt;&lt;em&gt;This is part of the response when git is installed&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/2020-03-18-tutorial/gem-response.png&quot; alt=&quot;Gem installed response&quot; /&gt;&lt;em&gt;This is part of the response when git is installed&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Once the requirements are in place, we can start creating our folder. We want to run the following commands:&lt;/p&gt;
+&lt;p&gt;Once everything’s in place, we can start installing the basic jekyll build. To do so, run the following:&lt;/p&gt;
 
 &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;jekyll bundler
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;bundle &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; 
@@ -272,44 +268,56 @@ A JS Example:
 
 &lt;p&gt;This will create a local environment in your browser that allow us to see the changes we make to our website! Open a page in Chrome (or your favourite browser) at the address http://localhost:4000/ to see the starting version of the website.&lt;/p&gt;
 
-&lt;p&gt;I know, it looks pretty bare bone and hugly but don’t worry! Will make it much more appealing and pretty!&lt;/p&gt;
+&lt;p&gt;I know, it looks pretty bare bone and hugly but don’t worry! Will make it much more professional.&lt;/p&gt;
 
-&lt;h2 id=&quot;lets-start-playing-around-with-our-configyml&quot;&gt;Let’s start playing around with our config.yml!&lt;/h2&gt;
+&lt;h2 id=&quot;lets-start-playing-around-with-our-configyml&quot;&gt;Let’s start playing around with our config.yml&lt;/h2&gt;
 
 &lt;p&gt;For context, the config.yml file that you find in the newly created folder is a very important file and it handles the configurations of our websites. For example, the file specifies which plugins we want to have in order to add additional functionalities to our website.&lt;/p&gt;
 
-&lt;p&gt;The first tweaks we are going to make will allow us to start from scratch and create the layout the way we want it. I would recommend to use a text editor from now on. My preferred editor is &lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;Visual Studio Code&lt;/a&gt;, but you can also use &lt;a href=&quot;https://atom.io/&quot;&gt;Atom&lt;/a&gt; or any editor you like. Ok, let’s dive into our config file.&lt;/p&gt;
+&lt;p&gt;I would recommend to use a text editor from now on. My preferred editor is &lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;Visual Studio Code&lt;/a&gt;, but you can also use &lt;a href=&quot;https://atom.io/&quot;&gt;Atom&lt;/a&gt; or any editor you like. Ok, let’s dive into our config file.&lt;/p&gt;
 
 &lt;p&gt;Open the file &lt;code class=&quot;highlighter-rouge&quot;&gt;config.yml&lt;/code&gt; and modify the following lines:&lt;/p&gt;
 
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;ss&quot;&gt;title: &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'name of your website'&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;email: &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'add your personal/work email'&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;description: &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Add the description for your website'&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;baseurl: &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'/your_website_folder'&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;url: &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'add the future url of your website'&lt;/span&gt;
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;of&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;your&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;website'&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;your&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;personal/work&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;email'&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Add&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;the&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;your&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;website'&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;baseurl&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;/your_website_folder'&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;the&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;future&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;of&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;your&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;website'&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;For some context, the url can be populated with a temporary place holder, if you don’t have your url hosted yet, as we won’t need the website live to design it!&lt;/p&gt;
+&lt;p&gt;For some context, the url can be populated with a temporary place holder, if you don’t have your url hosted yet, as we won’t need the website to be live to design it.&lt;/p&gt;
 
 &lt;p&gt;Now, to remove the current theme, delete the line&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;theme: minima
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;theme&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;minima&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;This is the default minimal them that comes with jekyll installation. We will use our own theme.&lt;/p&gt;
+&lt;p&gt;This is the default theme that comes with jekyll installation. We will use our own theme.&lt;/p&gt;
 
 &lt;p&gt;In the &lt;code class=&quot;highlighter-rouge&quot;&gt;gems&lt;/code&gt; section add jekyll plugin &lt;a href=&quot;https://github.com/postcss/autoprefixer#other-build-tools&quot;&gt;autoprefixer&lt;/a&gt;:&lt;/p&gt;
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;autoprefixer&lt;/span&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;jekyll-autoprefixer&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;We are going to use &lt;a href=&quot;https://sass-lang.com/&quot;&gt;Sass&lt;/a&gt; to add CSS functionalities to our website. Let’s add a section at the end of the &lt;code class=&quot;highlighter-rouge&quot;&gt;config.yml&lt;/code&gt;&lt;/p&gt;
 
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;ss&quot;&gt;sass:
-  sass_dir: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_sass&lt;/span&gt;
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;sass&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;sass_dir&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;_sass&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;At this point, is also useful to add some prettification for future use. Have you ever notice that professional website show structured url like &lt;code class=&quot;highlighter-rouge&quot;&gt;https://my_website/about&lt;/code&gt; ? We are going to prettify our website as well by hiding the file extension on the website page.&lt;/p&gt;
 
 &lt;p&gt;In the section “Build settings” add the following line:&lt;/p&gt;
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;ss&quot;&gt;permalink: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pretty&lt;/span&gt;
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;permalink&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;pretty&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Before moving to the next step, we want to start creating some custom variables, that will be useful while building the website. We can add the following variables before the “Build settings” section:&lt;/p&gt;
+
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# these variable can be accessed using the format  &lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;twitter_path&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://twitter.com/my_twitter&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;facebook_path&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://facebook.com/my_facebook&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;instagram_path&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://instagram.com/my_instagram&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;youtube_path&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://youtube.com/channel/my_youtube&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;github_path&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://github.com/my_github&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;These variables will allow us to easily add links to our social media pages and maintain them easily by changing only the variables if needed. The changes will be propagated.&lt;/p&gt;
 
 &lt;h2 id=&quot;modify-the-gemfile-to-reflect-our-configyml-modifications&quot;&gt;Modify the Gemfile to reflect our config.yml modifications&lt;/h2&gt;
 
@@ -317,21 +325,21 @@ A JS Example:
 
 &lt;p&gt;Remove the line&lt;/p&gt;
 
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;minima&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;~&amp;gt; #.#&quot;&lt;/span&gt;
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;gem &quot;minima&quot;, &quot;~&amp;gt;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#.#&quot;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Add the line&lt;/p&gt;
 
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;jekyll-autoprefixer&quot;&lt;/span&gt;
+&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;gem &quot;jekyll-autoprefixer&quot;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Save the &lt;code class=&quot;highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;last-thing-before-having-our-balnk-canvas&quot;&gt;Last thing before having our balnk canvas…&lt;/h2&gt;
 
-&lt;p&gt;If we now try to reload the website in our local host you may notice that nothing has changed. This is because every time we change the &lt;code class=&quot;highlighter-rouge&quot;&gt;config.yml&lt;/code&gt;, we need to restart the local service to see the changes rendered.&lt;/p&gt;
+&lt;p&gt;If we now try to reload the website in our local host you notice that nothing has changed. This is because every time we change the &lt;code class=&quot;highlighter-rouge&quot;&gt;config.yml&lt;/code&gt;, we need to restart the local service to see the changes rendered.&lt;/p&gt;
 
-&lt;p&gt;Before doing so, we want to delete the file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; folder &lt;code class=&quot;highlighter-rouge&quot;&gt;today's date-welcome-to-jekyll.markdown&lt;/code&gt;. If we don’t do that and try to restart the local host, we will get an error caused by the fact that we deleted the theme and thus, we won’t be able to render the page.&lt;/p&gt;
+&lt;p&gt;Before doing so, we want to delete the file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; folder &lt;code class=&quot;highlighter-rouge&quot;&gt;today's date-welcome-to-jekyll.markdown&lt;/code&gt;. If we don’t do that and try to restart the local host, we will get an error caused by the fact that we deleted the theme and thus, we won’t be able to render the post page generated by default.&lt;/p&gt;
 
 &lt;p&gt;Let’s change the &lt;code class=&quot;highlighter-rouge&quot;&gt;index.md&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; and add the following lines to the file:&lt;/p&gt;
 
@@ -340,4 +348,4 @@ A JS Example:
 
 &lt;p&gt;Let’s restart the local server and Congrats! You already have your static Home that is ready to be designed!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/2020-03-18-tutorial/home.png&quot; alt=&quot;Our Home MVP!&quot; /&gt;&lt;em&gt;Congrats! This is your first website Home page!&lt;/em&gt;&lt;/p&gt;</content><author><name>manfredimiraula</name></author><category term="blog" /><category term="post" /><category term="front-end" /><category term="programming" /><summary type="html">In this tutorial I will share my experience in building a static website based on Jekyll. I’m imagined this tutorial as a series of posts, to help me getting practice with content creation and Markdown.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/jekyll.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/jekyll.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;&lt;img src=&quot;/assets/images/2020-03-18-tutorial/home.png&quot; alt=&quot;Our Home MVP!&quot; /&gt;&lt;em&gt;Congrats! This is your first website Home page!&lt;/em&gt;&lt;/p&gt;</content><author><name>manfredimiraula</name></author><category term="blog" /><category term="post" /><category term="front-end" /><category term="programming" /><summary type="html">I’ve imagined this tutorial as a series of posts, to share my experience in building a static website based on Jekyll. I hope this will be helpful to help you getting started in building your own website based on Jekyll.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/jekyll.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/jekyll.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

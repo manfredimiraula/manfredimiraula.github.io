@@ -23,9 +23,9 @@
     <meta name=author content="Manfredi Miraula">
 
     <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Tutorial: Create a Jekyll-based static website from scratch | Manfredi Miraula</title>
+<title>Tutorial: Create a Jekyll-based static website from scratch Part 0.1 | Manfredi Miraula</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Tutorial: Create a Jekyll-based static website from scratch" />
+<meta property="og:title" content="Tutorial: Create a Jekyll-based static website from scratch Part 0.1" />
 <meta name="author" content="manfredimiraula" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Tutorial, how to build a website using Jekyll from scratch" />
@@ -37,7 +37,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-03-16T09:45:00+00:00" />
 <script type="application/ld+json">
-{"image":"http://localhost:4000/assets/images/jekyll.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/tutorial-create-a-jekyll-website-v0.1/"},"author":{"@type":"Person","name":"manfredimiraula"},"description":"Tutorial, how to build a website using Jekyll from scratch","@type":"BlogPosting","url":"http://localhost:4000/tutorial-create-a-jekyll-website-v0.1/","headline":"Tutorial: Create a Jekyll-based static website from scratch","dateModified":"2020-03-16T09:45:00+00:00","datePublished":"2020-03-16T09:45:00+00:00","@context":"https://schema.org"}</script>
+{"image":"http://localhost:4000/assets/images/jekyll.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/tutorial-create-a-jekyll-website-v0.1/"},"author":{"@type":"Person","name":"manfredimiraula"},"description":"Tutorial, how to build a website using Jekyll from scratch","@type":"BlogPosting","url":"http://localhost:4000/tutorial-create-a-jekyll-website-v0.1/","headline":"Tutorial: Create a Jekyll-based static website from scratch Part 0.1","dateModified":"2020-03-16T09:45:00+00:00","datePublished":"2020-03-16T09:45:00+00:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     
@@ -611,7 +611,7 @@ h4 {
   font-size: 1.6rem; }
 
 a {
-  color: #4b0082;
+  color: #423a48;
   text-decoration: underline; }
 
 p {
@@ -793,7 +793,7 @@ pre {
 .home > .list > .item:hover > .url > .title,
 .blog > .list > .item:hover > .url > .title,
 .projects > .list > .item:hover > .url > .title {
-  color: #4b0082; }
+  color: #423a48; }
 .home > .list aside,
 .blog > .list aside,
 .projects > .list aside {
@@ -943,7 +943,7 @@ pre {
     transition: all ease-in-out 0.2s;
     font-size: 1.6rem; }
   .tag-list > .list > .item:hover > .url > .title {
-    color: #4b0082; }
+    color: #423a48; }
   .tag-list > .list aside {
     position: relative;
     top: 2px;
@@ -1062,7 +1062,7 @@ pre {
       display: inherit;
       margin: 0; }
       .footer-main > .link > .icon:hover {
-        fill: #4b0082 !important; }
+        fill: #423a48 !important; }
   .footer-main > .extra {
     color: #aaa;
     margin-top: 0; }
@@ -1345,7 +1345,7 @@ pre {
     height: 35px;
     width: 35px; }
     .social-links > .link:hover > .icon {
-      fill: #4b0082; }
+      fill: #423a48; }
     .social-links > .link:hover:before {
       opacity: 1;
       display: inline-block;
@@ -1451,7 +1451,7 @@ pre {
 
         
             <li class="item">
-                <a class="link" href="https://google.com/?q=my+resume">Résumé</a>
+                <a class="link" href="http://localhost:4000//resume/">Résumé</a>
             </li>
         
     </ul>
@@ -1460,10 +1460,10 @@ pre {
 
 
 
-    <img class="title-image" src="/assets/images/jekyll.jpg" alt="Tutorial: Create a Jekyll-based static website from scratch">
+    <img class="title-image" src="/assets/images/jekyll.jpg" alt="Tutorial: Create a Jekyll-based static website from scratch Part 0.1">
 
 
-<h1 class="title">Tutorial: Create a Jekyll-based static website from scratch</h1>
+<h1 class="title">Tutorial: Create a Jekyll-based static website from scratch Part 0.1</h1>
 
 <span class="date">
     <time datetime="16-03-2020">Monday. March 16, 2020</time>
@@ -1489,34 +1489,30 @@ pre {
     </div>
 
 
-<p>In this tutorial I will share my experience in building a static website based on Jekyll. I’m imagined this tutorial as a series of posts, to help me getting practice with content creation and Markdown.</p>
+<p>I’ve imagined this tutorial as a series of posts, to share my experience in building a static website based on Jekyll. I hope this will be helpful to help you getting started in building your own website based on Jekyll.</p>
 
 <p>In the first post I will cover the following content:</p>
 
 <ol>
-  <li>What is Jekyll and what are the advantages of using it</li>
-  <li>Create the folder structure and requirements</li>
+  <li>Brief Summary of what is Jekyll and what are the advantages of using it</li>
+  <li>Requirements and folder structure</li>
   <li>Preliminary configuration of the config.yml file</li>
   <li>Summary and next post</li>
 </ol>
 
-<p>Mainly, this tutorial represent a note to my future self, in the case that I will have to generate another website for myself (or a friend/client) in the future. As such, I hope this will represent a useful how-to guide for anyone interested in the reading.</p>
-
 <h4 id="disclaimer-and-requirements">Disclaimer and requirements</h4>
-<p>The guide assumes you are using a MacOS environment, as Ruby (Jekyll’s language) is pre-installed in every Mac. If you are using a different OS, you will need to find specific guides for your systems as the command we will use might change.</p>
+<p>This guide is based on MacOS.</p>
 
 <h2 id="what-is-jekyll-and-what-are-the-advantages-of-using-it">What is Jekyll and what are the advantages of using it</h2>
 
-<p><a href="https://jekyllrb.com/">Jekyll</a> is  a useful way to generate static websites that can then be served by webservers such as GitHub Pages.</p>
+<p><a href="https://jekyllrb.com/">Jekyll</a> is  a useful way to generate static websites that can then be served by webservers such as <a href="https://pages.github.com/">GitHub Pages</a>.</p>
 
 <p>Jekyll allow to generate beautiful websites without any prior coding knowledge. However, if someone is so inclined it is possible to extend its functionality with front-end frameworks and additional plugins to track, for instance, web views.</p>
 
 <h2 id="requirements-and--folder-structure">Requirements and  folder structure</h2>
 <p>Ok, here we go!</p>
 
-<p>We need to first open our terminal and position ourselves in the directory we want to use to create our base folder.</p>
-
-<p>You can use the following command to to move around folders, create a folder and generate a file:</p>
+<p>Use the following commands to to move around folders, create a folder and generate a file:</p>
 
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">cd</span> <span class="o">[</span>directory/folder]
 <span class="nv">$ </span><span class="nb">mkdir</span> <span class="o">[</span>folder_name]
@@ -1531,13 +1527,13 @@ pre {
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>gem
 </code></pre></div></div>
 
-<p>If everything works as expected, you should see the following responses from Terminal</p>
+<p>If everything works as expected, you should see the following responses from Terminal:</p>
 
 <p><img src="/assets/images/2020-03-18-tutorial/git-response.png" alt="Git installed response" /><em>This is part of the response when git is installed</em></p>
 
 <p><img src="/assets/images/2020-03-18-tutorial/gem-response.png" alt="Gem installed response" /><em>This is part of the response when git is installed</em></p>
 
-<p>Once the requirements are in place, we can start creating our folder. We want to run the following commands:</p>
+<p>Once everything’s in place, we can start installing the basic jekyll build. To do so, run the following:</p>
 
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>gem <span class="nb">install </span>jekyll bundler
 <span class="nv">$ </span>bundle <span class="nb">install</span> 
@@ -1565,44 +1561,56 @@ pre {
 
 <p>This will create a local environment in your browser that allow us to see the changes we make to our website! Open a page in Chrome (or your favourite browser) at the address http://localhost:4000/ to see the starting version of the website.</p>
 
-<p>I know, it looks pretty bare bone and hugly but don’t worry! Will make it much more appealing and pretty!</p>
+<p>I know, it looks pretty bare bone and hugly but don’t worry! Will make it much more professional.</p>
 
-<h2 id="lets-start-playing-around-with-our-configyml">Let’s start playing around with our config.yml!</h2>
+<h2 id="lets-start-playing-around-with-our-configyml">Let’s start playing around with our config.yml</h2>
 
 <p>For context, the config.yml file that you find in the newly created folder is a very important file and it handles the configurations of our websites. For example, the file specifies which plugins we want to have in order to add additional functionalities to our website.</p>
 
-<p>The first tweaks we are going to make will allow us to start from scratch and create the layout the way we want it. I would recommend to use a text editor from now on. My preferred editor is <a href="https://code.visualstudio.com/">Visual Studio Code</a>, but you can also use <a href="https://atom.io/">Atom</a> or any editor you like. Ok, let’s dive into our config file.</p>
+<p>I would recommend to use a text editor from now on. My preferred editor is <a href="https://code.visualstudio.com/">Visual Studio Code</a>, but you can also use <a href="https://atom.io/">Atom</a> or any editor you like. Ok, let’s dive into our config file.</p>
 
 <p>Open the file <code class="highlighter-rouge">config.yml</code> and modify the following lines:</p>
 
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ss">title: </span><span class="s1">'name of your website'</span>
-<span class="ss">email: </span><span class="s1">'add your personal/work email'</span>
-<span class="ss">description: </span><span class="s1">'Add the description for your website'</span>
-<span class="ss">baseurl: </span><span class="s1">'/your_website_folder'</span>
-<span class="ss">url: </span><span class="s1">'add the future url of your website'</span>
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">title</span><span class="pi">:</span> <span class="s1">'</span><span class="s">name</span><span class="nv"> </span><span class="s">of</span><span class="nv"> </span><span class="s">your</span><span class="nv"> </span><span class="s">website'</span>
+<span class="na">email</span><span class="pi">:</span> <span class="s1">'</span><span class="s">add</span><span class="nv"> </span><span class="s">your</span><span class="nv"> </span><span class="s">personal/work</span><span class="nv"> </span><span class="s">email'</span>
+<span class="na">description</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Add</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">description</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">your</span><span class="nv"> </span><span class="s">website'</span>
+<span class="na">baseurl</span><span class="pi">:</span> <span class="s1">'</span><span class="s">/your_website_folder'</span>
+<span class="na">url</span><span class="pi">:</span> <span class="s1">'</span><span class="s">add</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">future</span><span class="nv"> </span><span class="s">url</span><span class="nv"> </span><span class="s">of</span><span class="nv"> </span><span class="s">your</span><span class="nv"> </span><span class="s">website'</span>
 </code></pre></div></div>
-<p>For some context, the url can be populated with a temporary place holder, if you don’t have your url hosted yet, as we won’t need the website live to design it!</p>
+<p>For some context, the url can be populated with a temporary place holder, if you don’t have your url hosted yet, as we won’t need the website to be live to design it.</p>
 
 <p>Now, to remove the current theme, delete the line</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>theme: minima
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">theme</span><span class="pi">:</span> <span class="s">minima</span>
 </code></pre></div></div>
-<p>This is the default minimal them that comes with jekyll installation. We will use our own theme.</p>
+<p>This is the default theme that comes with jekyll installation. We will use our own theme.</p>
 
 <p>In the <code class="highlighter-rouge">gems</code> section add jekyll plugin <a href="https://github.com/postcss/autoprefixer#other-build-tools">autoprefixer</a>:</p>
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">-</span> <span class="n">jekyll</span><span class="o">-</span><span class="n">autoprefixer</span>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="pi">-</span> <span class="s">jekyll-autoprefixer</span>
 </code></pre></div></div>
 
 <p>We are going to use <a href="https://sass-lang.com/">Sass</a> to add CSS functionalities to our website. Let’s add a section at the end of the <code class="highlighter-rouge">config.yml</code></p>
 
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ss">sass:
-  sass_dir: </span><span class="n">_sass</span>
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">sass</span><span class="pi">:</span>
+  <span class="na">sass_dir</span><span class="pi">:</span> <span class="s">_sass</span>
 </code></pre></div></div>
 
 <p>At this point, is also useful to add some prettification for future use. Have you ever notice that professional website show structured url like <code class="highlighter-rouge">https://my_website/about</code> ? We are going to prettify our website as well by hiding the file extension on the website page.</p>
 
 <p>In the section “Build settings” add the following line:</p>
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ss">permalink: </span><span class="n">pretty</span>
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">permalink</span><span class="pi">:</span> <span class="s">pretty</span>
 </code></pre></div></div>
+
+<p>Before moving to the next step, we want to start creating some custom variables, that will be useful while building the website. We can add the following variables before the “Build settings” section:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># these variable can be accessed using the format  </span>
+<span class="na">twitter_path</span><span class="pi">:</span> <span class="s">https://twitter.com/my_twitter</span>
+<span class="na">facebook_path</span><span class="pi">:</span> <span class="s">https://facebook.com/my_facebook</span>
+<span class="na">instagram_path</span><span class="pi">:</span> <span class="s">https://instagram.com/my_instagram</span>
+<span class="na">youtube_path</span><span class="pi">:</span> <span class="s">https://youtube.com/channel/my_youtube</span>
+<span class="na">github_path</span><span class="pi">:</span> <span class="s">https://github.com/my_github</span>
+</code></pre></div></div>
+<p>These variables will allow us to easily add links to our social media pages and maintain them easily by changing only the variables if needed. The changes will be propagated.</p>
 
 <h2 id="modify-the-gemfile-to-reflect-our-configyml-modifications">Modify the Gemfile to reflect our config.yml modifications</h2>
 
@@ -1610,21 +1618,21 @@ pre {
 
 <p>Remove the line</p>
 
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">gem</span> <span class="s2">"minima"</span><span class="p">,</span> <span class="s2">"~&gt; #.#"</span>
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">gem "minima", "~&gt;</span> <span class="c1">#.#"</span>
 </code></pre></div></div>
 
 <p>Add the line</p>
 
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">gem</span> <span class="s2">"jekyll-autoprefixer"</span>
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">gem "jekyll-autoprefixer"</span>
 </code></pre></div></div>
 
 <p>Save the <code class="highlighter-rouge">Gemfile</code>.</p>
 
 <h2 id="last-thing-before-having-our-balnk-canvas">Last thing before having our balnk canvas…</h2>
 
-<p>If we now try to reload the website in our local host you may notice that nothing has changed. This is because every time we change the <code class="highlighter-rouge">config.yml</code>, we need to restart the local service to see the changes rendered.</p>
+<p>If we now try to reload the website in our local host you notice that nothing has changed. This is because every time we change the <code class="highlighter-rouge">config.yml</code>, we need to restart the local service to see the changes rendered.</p>
 
-<p>Before doing so, we want to delete the file in the <code class="highlighter-rouge">_posts</code> folder <code class="highlighter-rouge">today's date-welcome-to-jekyll.markdown</code>. If we don’t do that and try to restart the local host, we will get an error caused by the fact that we deleted the theme and thus, we won’t be able to render the page.</p>
+<p>Before doing so, we want to delete the file in the <code class="highlighter-rouge">_posts</code> folder <code class="highlighter-rouge">today's date-welcome-to-jekyll.markdown</code>. If we don’t do that and try to restart the local host, we will get an error caused by the fact that we deleted the theme and thus, we won’t be able to render the post page generated by default.</p>
 
 <p>Let’s change the <code class="highlighter-rouge">index.md</code> to <code class="highlighter-rouge">index.html</code> and add the following lines to the file:</p>
 
@@ -1728,7 +1736,7 @@ pre {
         <div class="share">
             <!-- Note: Only use three share links if your site width is set to large -->
             <!-- If site width is set to normal, you may choose any two share links -->
-            <a class="twitter" href="https://twitter.com/intent/tweet?text=http://localhost:4000/tutorial-create-a-jekyll-website-v0.1/ - Tutorial: Create a Jekyll-based static website from scratch by @">
+            <a class="twitter" href="https://twitter.com/intent/tweet?text=http://localhost:4000/tutorial-create-a-jekyll-website-v0.1/ - Tutorial: Create a Jekyll-based static website from scratch Part 0.1 by @">
                 <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg><span class="icon-twitter">Tweet</span>
             </a>
 
@@ -1740,11 +1748,11 @@ pre {
                 <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg><span class="icon-google-plus">Share</span>
             </a> -->
 
-            <!-- <a class="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:4000/tutorial-create-a-jekyll-website-v0.1/&amp;title=Tutorial: Create a Jekyll-based static website from scratch&amp;summary=Tutorial, how to build a website using Jekyll from scratch&amp;source=http://localhost:4000" target="_blank">
+            <!-- <a class="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:4000/tutorial-create-a-jekyll-website-v0.1/&amp;title=Tutorial: Create a Jekyll-based static website from scratch Part 0.1&amp;summary=Tutorial, how to build a website using Jekyll from scratch&amp;source=http://localhost:4000" target="_blank">
                 <svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg><span class="icon-linkedin">Share</span>
             </a> -->
 
-            <!-- <a class="reddit" href="https://reddit.com/submit?url=http://localhost:4000/tutorial-create-a-jekyll-website-v0.1/&amp;title=Tutorial: Create a Jekyll-based static website from scratch" target="_blank">
+            <!-- <a class="reddit" href="https://reddit.com/submit?url=http://localhost:4000/tutorial-create-a-jekyll-website-v0.1/&amp;title=Tutorial: Create a Jekyll-based static website from scratch Part 0.1" target="_blank">
                 <svg class="icon icon-reddit"><use xlink:href="#icon-reddit"></use></svg><span class="icon-reddit">Share</span>
             </a> -->
         </div>
@@ -1781,10 +1789,9 @@ pre {
     Manfredi Miraula © 2020 <a class="link" href="http://localhost:4000/feed.xml" target="_blank"><svg class="icon icon-rss"><use xlink:href="#icon-rss"></use></svg></a>
 
     <p class="extra">
-        <a class="link" href="https://github.com/sergiokopplin/indigo">Indigo theme</a> by <a class="link" href="https://github.com/sergiokopplin/indigo">Kopplin</a>
+        <a class="link" href="https://manfredi.miraula.org">Maintained</a> by <a class="link" href="https://manfredi.miraula.org">MM</a>
     </p>
 </footer>
-
 
         </div>
     </div>
