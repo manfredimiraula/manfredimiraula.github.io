@@ -5,13 +5,12 @@
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
-    sidebar-nav: True 
+
 
     # Profile information
     name: Manfredi Miraula
     tagline: Data Scientist
     avatar: face.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-    sidebar-nav: Home
 
     # Sidebar links
     email: manfredi.miraula@gmail.com
@@ -46,9 +45,14 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-     I started my career as a Scientist. I completed my Ph.D. in Chemistry between Australia and Ireland. Academia is a tough job market and I decided to switch career. 
-     That's how I ended up in tech and eventually moved into Analytical roles and programming. 
-     Nowadays, I spend my free time learning about programming and trading both equities and option contracts. 
+     I’m a curious and focused former scientist (Ph.D.), now dedicated to helping businesses to make data-informed decisions, by exploiting big data, data visualization and data science. 
+
+     My academic experience in hard sciences gave me a pragmatic approach to problem-solving and allows me to find the root cause of complex problems. I use Data Science techniques and methodology to leverage business data to inform stakeholders. No matter the seniority level, I’m able to convey technical messages to wide audiences and facilitate decision making using data-driven approaches. 
+
+     I enjoy learning and I’m able to get spun up quickly on new topics. For this reason, I consider myself topic-agnostic, meaning that I’d be glad to help you in any type of data-related project, no matter your industry.
+
+
+
 
 education:
     - degree: Ph.D. Chemistry
@@ -76,16 +80,37 @@ education:
       details: |
         I graduated magna cum laude.
           - Major: Chemistry, Physics, Biology
-          
+    
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python 
+        level: 70%
+
+      - name: Data Science toolkit 
+        level: 80%
+
+      - name: SQL
+        level: 90%
+
+      - name: HTML5 & CSS 
+        level: 60%
+
+      - name: Project Management
+        level: 90%          
+
 experiences:
     - role: Business Analyst
-      time: 2016 - Present
-      company: Stripe Inc. (Dublin)
+      time:  2016 - 2020
+      company: Stripe Inc. 
       details: |
-        Responsible to perform Data Analysis and Reporting for the Risk C-level and senior Managers. 
-          - Technically savvy, I used SQL and Python daily
-          - Active in hiring loops
-          - Trained Project Managers and Analyst in SQL 
+        As a Business Analyst, I worked daily with a large amount of data to report on User Experience and Onboarding flows for the global Risk team at Stripe. Daily, I used SQL and Python to generate reports, create Dashboards and create ad-hoc analysis for senior management (C-level), Project managers and Analysts. Some of the projects I’m most proud of:
+          - Visualize the Onboarding flow of Risk controls and interventions using a Sankey diagram
+          - Evaluate potential features to improve machine learning models, by analyzing KYC/KYB data
+          - Provide recommendations to identify the time window at which a customer was onboarded   
+          - Forecasting review volume to help headcount projections and outsourcing
+          
 
 projects:
     title: Projects
@@ -95,20 +120,6 @@ projects:
       - title: Visualizing Real Estate trends in Ireland
         link: "#hook"
         tagline: "The use of Matplotlib, PyPlot and Bokeh to visualize Real Estate trends in Ireland."
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python \
-        level: 70%
-
-      - name: SQL
-        level: 90%
-
-      - name: HTML5 & CSS
-        level: 50%
-
 
 publications:
     title: Publications

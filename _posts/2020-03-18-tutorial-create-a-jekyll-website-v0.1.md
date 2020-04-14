@@ -1,7 +1,7 @@
 ---
 title: "Tutorial: Create a Jekyll-based static website from scratch Part 0.1"
 layout: post
-date: 2020-03-16 09:45
+date: 2020-03-18 09:45
 image: /assets/images/jekyll.jpg
 headerImage: true
 tag:

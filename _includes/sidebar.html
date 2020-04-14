@@ -1,28 +1,30 @@
 {% assign sidebar = site.data.data.sidebar %}
-<div class="sidebar-wrapper">
 
+
+<div class="sidebar-wrapper">
   <div class="profile-container">
     
-    {% if sidebar.sidebar-nav %}  
-      {% include sidebar-nav.html %}
-    {% endif %}
+    <h1 class="name">{% include sidebar-nav.html %}</h1>
 
     {% if sidebar.name %}
     <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
     {% endif %}
+    
 
     {% if sidebar.name %}
     <h1 class="name">{{ sidebar.name }}</h1>
     {% endif %}
 
+    
+
+    {% if sidebar-nav.name %}
+    <h1 class="name">{{ sidebar-nav.name }}</h1>
+    {% endif %}
+  
+
     {% if sidebar.tagline %}
     <h3 class="tagline">{{ sidebar.tagline }}</h3>
     {% endif %}
-
-    <style>
-      {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
-      {{ scss_sheet | scssify }}
-    </style>
 
   </div><!--//profile-container-->
   
