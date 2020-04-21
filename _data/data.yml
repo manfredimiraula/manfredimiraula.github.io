@@ -118,7 +118,7 @@ projects:
       These are some of my personal projects I developped using Python. 
     assignments:
       - title: Visualizing Real Estate trends in Ireland
-        link: "#hook"
+        link: "https://github.com/manfredimiraula/portfolio/blob/master/irish-real-estate/real-estate-market-data.ipynb"
         tagline: "The use of Matplotlib, PyPlot and Bokeh to visualize Real Estate trends in Ireland."
 
 publications:
