@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Manfredi Miraula
-    tagline: Data Scientist
+    tagline: Data geek, Scientist
     avatar: face.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -101,6 +101,9 @@ skills:
         level: 90%          
 
 experiences:
+    - role: Sr. Data Analyst
+      time:  2020 - present
+      company: Geowox
     - role: Business Analyst
       time:  2016 - 2020
       company: Stripe Inc. 
